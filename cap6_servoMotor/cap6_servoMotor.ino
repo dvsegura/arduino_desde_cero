@@ -8,7 +8,6 @@ Servo myServo;
 #define POT 0
 int valuePOT;
 
-
 void setup() {
   myServo.attach(PIN_SERVO, PULSO_MIN, PULSO_MAX);
 }
